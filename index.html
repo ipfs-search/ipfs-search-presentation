@@ -12,16 +12,44 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+		<style type="text/css">
+			.reveal h1, .reveal h2, .reveal h3 {
+				text-transform: initial;
+			}
+
+			.white-links a,
+			.white-links a:link,
+			.white-links a:visited,
+			.white-links a:active {
+				color:  white;
+			}
+
+			.small {
+				font-size: 60%;
+			}
+
+			.dark-text,
+			.dark-text h2,
+			.dark-text a,
+			.dark-text a:link,
+			.dark-text a:visited,
+			.dark-text a:active {
+				color: black;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
+				<section data-background-image="img/background.jpg" class="white-links">
 					<h2><a href="https://ipfs-search.com/">ipfs-search.com</a></h2>
 					<p>Find without getting sold.</p>
 
-					<p>
-						<small>Novemer 24, 2021</small>
+
+					<p class="small">
+						Mathijs de Bruin (<a href="https://twitter.com/mathijsfietst">@mathijsfietst</a>)</a><br>
+						Novemer 25, 2021
 					</p>
 				</section>
 
@@ -61,18 +89,18 @@
 				</section>
 
 				<!-- section 3: solution -->
-				<section data-auto-animate>
-					<h2>ipfs-search.com</h2>
+				<section data-auto-animate data-background-image="img/hole_in_the_fence.jpg" class="dark-text">
+					<h2>ipfs-search</h2>
 					<p>Find without getting sold.</p>
 				</section>
 
 				<section data-auto-animate>
-					<h2>ipfs-search.com</h2>
+					<h2>ipfs-search</h2>
 					<ul>
-						<li>Private, we don't store anything</li>
+						<li class="fragment">Private, we don't store anything</li>
 						<li class="fragment">Censorship-free, objective and neutral</li>
 						<li class="fragment">Open Data and Open Source, copy & paste us</li>
-						<li class="fragment">Searches IPFS, better than torrents</li>
+						<li class="fragment">IPFS, the web like torrents</li>
 					</ul>
 				</section>
 
